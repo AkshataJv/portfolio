@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<body>
+<div id="header">
+    <div class="contain">
+       <nav>
+        <img src="logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i> 
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+       </nav> 
+       <div class="header-text">
+          <p>Software Engineer | AI & Data Science </p>
+          <h1>Hi, I'm <span class="highlite">Akshata</span></h1>
+          <h2>From India</h2>
+       </div>
+</div>
+
+<!--------------------about section-------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+            <img src="user.png">
+           </div>
+              
+           <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am a passionate software engineer with a keen interest in AI and data science. I love solving complex problems and building innovative solutions that make a difference.</p>
+            <p>Currently, I am pursuing my undergraduate degree in AI & DS, where I am honing my skills in programming, machine learning, and data analysis.</p>
+           
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Web Development</span><br>Designing Web interfaces.</li>
+                    <li><span>Data Structure</span><br>Organizing data efficiently for optimized algorithms.</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>BTech in AI & Data Science</span><br>KKWIEER, Nashik (2024–2028)</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="Projects">
+                <ul>
+                    <li><span>Portfolio Website</span><br>Built using HTML, CSS, JavaScript.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+<!--------------------services section-------------------->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Developing fully responsive and user-centric web applications with HTML, CSS, JavaScript, and React.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Structures</h2>
+                <p>Designing logical data models and implementing efficient algorithms using arrays, stacks, queues, trees, and graphs to solve real-world problems.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+<!----------------------portfolio------------------------>
+
+<div id="portfolio">
+
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h2>Portfolio Website</h2>
+                    <p>Developed a personal portfolio website to showcase my skills and projects.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h2>AI Chatbot</h2>
+                    <p>Created an AI-powered chatbot using Python and Natural Language Processing.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+             <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h2>Data Visualization Dashboard</h2>
+                    <p>Built an interactive dashboard to visualize data trends using JavaScript.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+
+</div>
+
+<!----------------------contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>Open to meaningful conversations and collaborations — let’s connect!</p>
+                <p> <i class="fa-solid fa-paper-plane"></i>Email: akshata.mjv@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/akshata-jadhav-5b5611344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                    " target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/AkshataJv" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+            </div>
+    </div>
+    <div class="copyright">
+    <p>copyright &copy; 2025 Akshata. All rights reserved. </p>
+    </div>
+</div>
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbylyen3q5GQVHMIa2uOsAfwRx8ukPFxVAXIlslk3T5fh_WFA7RjFY2NlLyidAktn5cW/exec';
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Successfully!";
+        setTimeout(() =>msg.innerHTML = "" , 5000);
+        form.reset()
+      })
+      .catch(error =>{ 
+        console.error('Error!', error.message);
+        msg.innerHTML = "Error sending message. Please try again.";
+        setTimeout(() =>msg.innerHTML = "" , 5000);
+  })
+
+ });
+
+</script>
+
+</body>
+</html>
