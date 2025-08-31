@@ -21,15 +21,6 @@ Hi! I'm **Akshata**, a passionate Software Engineer from India with expertise in
 
 [View Live Portfolio](https://dancing-lily-a1c2bf.netlify.app/) <!-- Replace with your actual deployment URL -->
 
-## 📸 Screenshots
-
-![Portfolio Homepage](<img width="1889" height="625" alt="Screenshot 2025-08-31 185939" src="https://github.com/user-attachments/assets/f66706ee-6d1d-4d68-813e-4165f354f79d" />
-) <!-- Add your screenshot -->
-![About Section](<img width="1881" height="1032" alt="Screenshot 2025-08-31 190002" src="https://github.com/user-attachments/assets/76da5c9e-f761-4c3c-a6fd-8d00c962a58d" />
-) <!-- Add your screenshot -->
-![Portfolio Section](<img width="1890" height="1037" alt="image" src="https://github.com/user-attachments/assets/41498cbb-6020-4949-9be1-1ad9109653a4" />
-) <!-- Add your screenshot -->
-
 ## 🛠️ Technologies Used
 
 - **HTML5** - Semantic markup and structure
@@ -190,7 +181,7 @@ The website uses CSS custom properties. Update the main color scheme in `style.c
 1. Push your code to a GitHub repository
 2. Go to repository Settings → Pages
 3. Select source branch (main/master)
-4. Your site will be available at `https://yourusername.github.io/repository-name`
+4. Your site will be available at `https://yAkshataJv.github.io/portfolio`
 
 ### Netlify
 1. Connect your GitHub repository to Netlify
