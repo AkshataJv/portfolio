@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website showcasing my journey as a Softw
 
 ## 👋 About Me
 
-Hi! I'm **Akshata**, a passionate Software Engineer from India with expertise in AI & Data Science. Currently pursuing my BTech in AI & Data Science at KKWIEER, Nashik (2024–2028). I love solving complex problems and building innovative solutions that make a difference.
+Hi! I'm **Akshata**, a passionate AI Engineer from India with expertise in Machine Learning & Data Science. Currently pursuing my BTech in AI & Data Science at KKWIEER, Nashik (2024–2028). I love solving complex problems and building innovative solutions that make a difference.
 
 ## 🌟 Features
 
@@ -226,6 +226,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Email**: akshata.mjv@gmail.com
 - **LinkedIn**: [Akshata Jadhav](https://www.linkedin.com/in/akshata-jadhav-5b5611344)
 - **GitHub**: [@AkshataJv](https://github.com/AkshataJv)
+- **Medium**: [Akshata](medium.com/@akshata.mjv)
 - **Portfolio**: [Live Website](https://dancing-lily-a1c2bf.netlify.app/)
 
 ## 📊 Project Stats
